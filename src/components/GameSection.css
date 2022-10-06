@@ -1,0 +1,56 @@
+.game-section{
+    position: relative;
+    
+}
+
+.circle-paper{
+    background-color: #fff;
+    height: 18rem;
+    width: 18rem;
+    border-radius: 50%;
+    position: fixed;
+    top: 33%;
+    left: 38%;
+    border: 20px solid hsl(230, 89%, 62%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.circle-scissors{
+    background-color: #fff;
+    height: 18rem;
+    width: 18rem;
+    border-radius: 50%;
+    position: fixed;
+    top: 33%;
+    right:  38%;
+    border: 2rem solid hsl(39, 89%, 49%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.circle-rock{
+    background-color: #fff;
+    height: 18rem;
+    width: 18rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 26%;
+    border: 20px solid hsl(349, 71%, 52%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    right: 45%;
+}
+
+.hands{
+    width: 6rem;
+}
+

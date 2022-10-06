@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.header-container{
+    width: 60rem;
+    height: 17rem;
+    border: 2px solid hsl(217, 16%, 45%);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-container img{
+    max-width: 16.2rem;
+    max-height: 9.9rem;
+    margin-left: 2rem;
+}
+
+.score {
+    width:16rem;
+    height:  10rem;
+    background-color: rgb(226, 226, 226);
+    border-radius: 1.5rem;
+    margin-right: 2rem;
+    text-align: center;
+}
+
+.score p{
+    position: relative;
+    top: 15%;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: hsl(229, 64%, 46%);
+}
+
+.score h1 {
+    position: relative;
+    top: 15%;
+    font-size: 4.8rem;
+    color: hsl(229, 25%, 31%);
+}
